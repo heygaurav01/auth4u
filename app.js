@@ -75,7 +75,7 @@ app.post('/login', async (req, res) => {
 
 // Add this route to serve the main page
 app.get('/', (req, res) => {
-    res.sendFile(__dirname + '/public/index.html');
+    res.sendFile(__dirname + '/index.html');
 });
 
 // Start the server
